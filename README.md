@@ -18,13 +18,6 @@ CalcPY/
 - Interface de texto interativa
 - Loop contínuo com opção de sair
 
-## ▶️ Como executar
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/seu-usuario/CalcPY.git
-
 ## 🛡️ Tratamento de Erros
 - Verifica se a opção escolhida é válida
 - Garante que a entrada contenha apenas números
