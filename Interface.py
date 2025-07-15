@@ -21,18 +21,18 @@ def interface():
         print("Digite apenas números")
         return
 
-
     try:
         if opcao == "1":
-            resultado = somar(numeros)
+            resultado = somar(*conversor)
         elif opcao == "2":
-            resultado = subtrair(numeros)
+            resultado = subtrair(*conversor)
         elif opcao == "3":
-            resultado = multiplicar(numeros)
+            resultado = multiplicar(*conversor)
         elif opcao == "4":
-            resultado = dividir(numeros)
+            resultado = dividir(*conversor)
 
         print(f"Resultado: {resultado}")
     except ValueError as e:
         print(f"Erro: {e}")
+
     
