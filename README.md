@@ -5,9 +5,9 @@ Projeto simples de calculadora no terminal feita em Python. O usuário pode real
 ## 📁 Estrutura do Projeto
 
 CalcPY/
-├── main.py # Ponto de entrada do programa
-├── Interface.py # Interface no terminal para interação com o usuário
-└── operacoes.py # Módulo com funções matemáticas
+- ├── main.py # Ponto de entrada do programa
+- ├── Interface.py # Interface no terminal para interação com o usuário
+- └── operacoes.py # Módulo com funções matemáticas
 
 ## ⚙️ Funcionalidades
 
