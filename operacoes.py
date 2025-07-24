@@ -1,4 +1,5 @@
 #Algumas opreções
+import math
 
 def somar(*numeros):
     total = 0
@@ -32,4 +33,13 @@ def dividir(*numeros):
             raise ValueError("Divisão por zero não é permitida!")
         total /= n
     return total
-        
+
+
+def fatorial(*numeros):
+    resultados = []
+    for n in numeros:
+        if isinstance(n, int) and n >=0:
+            resultados.append(math.factorial(n))
+        else:
+            resultados.append(f"Erro: {n} não é um número inteiro positivo!")
+    return resultados
