@@ -15,6 +15,7 @@ CalcPY/
 - Subtrair em sequência
 - Multiplicar valores
 - Dividir em sequência, com tratamento de divisão por zero
+- Fatorial
 - Interface de texto interativa
 - Loop contínuo com opção de sair
 
